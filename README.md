@@ -93,3 +93,46 @@ balance after   : 1.157920892e+68 GWei
 balance diff    : 317077.278 GWei
 balance diff    : 0.47 USD
 ```
+
+`make basic-write`
+
+CGO_ENABLED=0 go run app/basic/cmd/write/main.go
+
+Input Values
+----------------------------------------------------
+fromAddress: 0x6327A38415C53FFb36c11db55Ea74cc9cB4976Fd
+oneETHToUSD: 1490.0230939405994
+oneUSDToETH: 0.0006711305375511619
+contractID: 0x6dB8BD2Fd59009cF8aBB62D0883B5c200333666A
+version: 1.1
+
+Transaction Details
+----------------------------------------------------
+hash            : 0x71d5f1c1e8689dcf88596f8b5af0867d8a2a2b4097bff5903d1b2f3942f95f0c
+nonce           : 2
+gas limit       : 250000
+gas offer price : 0.766024068 GWei
+value           : 0 GWei
+max gas price   : 191506.017 GWei
+max gas price   : 0.29 USD
+
+Receipt Details
+----------------------------------------------------
+status          : 1
+gas used        : 47789
+gas price       : 0.766024068 GWei
+gas price       : 0.00 USD
+final gas cost  : 36607.52419 GWei
+final gas cost  : 0.05 USD
+
+Logs
+----------------------------------------------------
+ItemSet
+map[key:bill value:1000000]
+
+Balance
+----------------------------------------------------
+balance before  : 1.157920892e+68 GWei
+balance after   : 1.157920892e+68 GWei
+balance diff    : 32360.35017 GWei
+balance diff    : 0.05 USD
